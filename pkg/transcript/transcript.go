@@ -1,3 +1,5 @@
+// Package transcript fetches captions and transcripts from YouTube videos
+// using YouTube's unofficial Innertube API.
 package transcript
 
 import (

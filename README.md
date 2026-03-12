@@ -17,7 +17,7 @@ go get github.com/kyriacos/go-youtube-transcript-getter
 ### As a CLI Tool
 
 ```bash
-go install github.com/kyriacos/go-youtube-transcript-getter/cmd/yt-transcript@latest
+go install github.com/kyriacos/go-youtube-transcript-getter/cmd/youtube-transcript-getter@latest
 ```
 
 ## Usage
@@ -54,13 +54,13 @@ func main() {
 
 ```bash
 # Basic usage
-yt-transcript 3oXfZ-Rffz8
+youtube-transcript-getter 3oXfZ-Rffz8
 
 # Specify language
-yt-transcript 3oXfZ-Rffz8 fr
+youtube-transcript-getter 3oXfZ-Rffz8 fr
 
 # Output is JSON formatted
-yt-transcript 3oXfZ-Rffz8 | jq .
+youtube-transcript-getter 3oXfZ-Rffz8 | jq .
 ```
 
 ### Configuration Options
